@@ -23,10 +23,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -50,19 +47,30 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAlelebJUeM26PlnLx7U0rY3yJlT0j8ork',
-    appId: '1:425290406435:web:694a5ba539a00dcd6c6f96',
-    messagingSenderId: '425290406435',
-    projectId: 'publicchatroomsx',
-    authDomain: 'publicchatroomsx.firebaseapp.com',
-    storageBucket: 'publicchatroomsx.appspot.com',
+    apiKey: 'AIzaSyAYCe11tnfxj19wsT4xKALQUSai3viR5lQ',
+    appId: '1:903901516033:web:5a728f170ba2d1e7c44b00',
+    messagingSenderId: '903901516033',
+    projectId: 'chat-app-309bb',
+    authDomain: 'chat-app-309bb.firebaseapp.com',
+    storageBucket: 'chat-app-309bb.appspot.com',
+    measurementId: 'G-F1SLXV5ZR2',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCMZrIx3cC7M3xw-Nbkrbeo3lFbO5NkgKY',
-    appId: '1:425290406435:android:5027204172560b866c6f96',
-    messagingSenderId: '425290406435',
-    projectId: 'publicchatroomsx',
-    storageBucket: 'publicchatroomsx.appspot.com',
+    apiKey: 'AIzaSyAoXlbuyxv-yg7yPI7AIOSfUqEf31vAPAs',
+    appId: '1:903901516033:android:423e9e8d23766850c44b00',
+    messagingSenderId: '903901516033',
+    projectId: 'chat-app-309bb',
+    storageBucket: 'chat-app-309bb.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyATSeCaxbkpHnAfbg7ekRnZp1hRQ-P4Z0g',
+    appId: '1:903901516033:ios:daca41a35af12750c44b00',
+    messagingSenderId: '903901516033',
+    projectId: 'chat-app-309bb',
+    storageBucket: 'chat-app-309bb.appspot.com',
+    iosClientId: '903901516033-ctvivfbdmk23rd758qsmhivfrq90durt.apps.googleusercontent.com',
+    iosBundleId: 'com.example.chatRoom',
   );
 }

@@ -1,34 +1,41 @@
 {
   "project_info": {
-    "project_number": "425290406435",
-    "project_id": "publicchatroomsx",
-    "storage_bucket": "publicchatroomsx.appspot.com"
+    "project_number": "903901516033",
+    "project_id": "chat-app-309bb",
+    "storage_bucket": "chat-app-309bb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:425290406435:android:5027204172560b866c6f96",
+        "mobilesdk_app_id": "1:903901516033:android:423e9e8d23766850c44b00",
         "android_client_info": {
           "package_name": "com.example.chat_room"
         }
       },
       "oauth_client": [
         {
-          "client_id": "425290406435-4da58sjo9lgejs5dm401ojdmva30a6nj.apps.googleusercontent.com",
+          "client_id": "903901516033-8g3fq1i7465qvr93dv6c6uvtsoj2q6fl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCMZrIx3cC7M3xw-Nbkrbeo3lFbO5NkgKY"
+          "current_key": "AIzaSyAoXlbuyxv-yg7yPI7AIOSfUqEf31vAPAs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "425290406435-4da58sjo9lgejs5dm401ojdmva30a6nj.apps.googleusercontent.com",
+              "client_id": "903901516033-8g3fq1i7465qvr93dv6c6uvtsoj2q6fl.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "903901516033-ctvivfbdmk23rd758qsmhivfrq90durt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.chatRoom"
+              }
             }
           ]
         }
